@@ -83,7 +83,7 @@ const ResultsModal: React.FC<ResultsModalProps> = ({
                 ></path>
               </svg>
               <p className="mt-4 text-lg text-gray-300">
-                Analyzing smart contract...
+                Running deep analysis on your contract...
               </p>
             </div>
           </div>
