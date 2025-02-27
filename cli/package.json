@@ -1,0 +1,27 @@
+{
+  "name": "auditedge",
+  "version": "1.0.0",
+  "main": "index.js",
+  "bin": {
+    "auditedge": "./index.js"
+  },
+  "scripts": {
+    "start": "node index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "auditedge",
+    "audit",
+    "smart contracts",
+    "gemini"
+  ],
+  "author": "Fortunate Adesina",
+  "license": "MIT",
+  "description": "A CLI Tool to audit smart contracts",
+  "dependencies": {
+    "@google/generative-ai": "^0.22.0",
+    "commander": "^13.1.0",
+    "inquirer": "^8.2.6",
+    "openai": "^4.53.0"
+  }
+}
